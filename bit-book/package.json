@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-responsive-modal": "^3.0.3",
@@ -11,10 +12,12 @@
     "react-scripts": "1.1.4",
     "react-tabs": "^2.2.2"
   },
+  "homepage": "https://NikolaBirac.github.io/bitbook",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   }
 }
